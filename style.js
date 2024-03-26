@@ -9,6 +9,8 @@ function lightOn(){
         image.src.boxShadow="0px 0px 20px #ffd500"
         image.style.filter = `drop-shadow(0px 0px 30px #ffd500)`;
         body.style.backgroundColor = "darkblue";
+        btn.style.backgroundColor="#94acf1"
+        btn.style.color="darkblue"
         on=true;
     }
     else{
@@ -16,6 +18,8 @@ function lightOn(){
         image.src="./assets/light-off.png";
         body.style.backgroundColor="#94acf1";
         image.style.filter = `drop-shadow(0px 0px 30px black)`;
+        btn.style.backgroundColor="white"
+        btn.style.color="black"
         on=false;
     }
 }
