@@ -5,7 +5,7 @@ let on=false;
 function lightOn(){
     if(on==false){
         btn.innerHTML="OFF"
-        image.src= "./assets/light-on.png";
+        image.src= "./assets/light-onn.png";
         image.src.boxShadow="0px 0px 20px #ffd500"
         image.style.filter = `drop-shadow(0px 0px 30px #ffd500)`;
         body.style.backgroundColor = "darkblue";
